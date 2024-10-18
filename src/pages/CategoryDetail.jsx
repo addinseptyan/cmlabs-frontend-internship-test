@@ -30,7 +30,7 @@ export default function CategoryDetail() {
       <h1 className='text-2xl font-bold'>Category: {params.categoryName}</h1>
 
       {categoryData ? (
-        <div className='grid gap-4 grid-cols-2'>{elements}</div>
+        <div className='grid gap-4 sm:grid-cols-2'>{elements}</div>
       ) : (
         <Loading />
       )}

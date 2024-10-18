@@ -36,7 +36,7 @@ export default function MealDetail() {
       </div>
       <article>
         <h2 className='font-bold text-2xl'>Recipe</h2>
-        <ul className='h-32 flex flex-col flex-wrap pl-5 '>
+        <ul className='sm:h-32 flex flex-col flex-wrap pl-5 '>
           {ingredients.map((item, index) => (
             <li key={index} className='list-disc'>
               {item}

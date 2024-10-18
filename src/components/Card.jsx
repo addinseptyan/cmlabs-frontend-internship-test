@@ -26,7 +26,7 @@ export default function Card({ image, name, variant = 'default' }) {
           className='w-full h-full object-cover object-center'
         />
       </div>
-      <p className='text-white font-semibold absolute left-4 bottom-4'>
+      <p className='text-white font-semibold max-w-[60%] absolute left-4 bottom-4'>
         {name}
       </p>
     </div>
